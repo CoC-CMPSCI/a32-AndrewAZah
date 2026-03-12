@@ -11,6 +11,7 @@ int main()
   // TODO
   int total = numMale + numFemale + numOthers;
   percM = double(numMale) / total * 100;
+  
   percF = double(numFemale) / total * 100;
   percO = double(numOthers) / total * 100;
   cout << setprecision(2) << fixed;
